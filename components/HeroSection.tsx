@@ -7,15 +7,15 @@ import { ArrowDown } from "lucide-react"
 export default function HeroSection() {
   return (
     <section 
-      className="relative w-full flex items-center justify-center overflow-hidden"
+      className="relative w-full flex items-start justify-center overflow-hidden pt-20 sm:pt-24 md:items-center md:pt-0"
       style={{
         backgroundColor: '#1f1f1f',
         height: '100vh',
       }}
     >
-      {/* Hero image - optimized for portrait mobile, fullscreen on landscape/desktop */}
+      {/* Hero image - optimized for portrait mobile, aligned toward top on mobile */}
       <div 
-        className="relative flex items-center justify-center w-[95vw] h-[95vw] landscape:w-full landscape:h-full md:w-full md:h-full"
+        className="relative flex items-center justify-center w-[90vw] h-[90vw] landscape:w-full landscape:h-full md:w-full md:h-full"
       >
         <Image
           src="/images/hero.webp"
@@ -27,15 +27,11 @@ export default function HeroSection() {
         />
       </div>
 
-      {/* Scroll indicator - Fixed to viewport bottom, always visible and centered */}
+      {/* Scroll indicator - Only visible in hero section */}
       <a
         href="#resume"
-        className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 animate-bounce cursor-pointer pointer-events-auto flex flex-col items-center gap-2"
+        className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 z-20 animate-bounce cursor-pointer pointer-events-auto flex flex-col items-center gap-2"
         aria-label="Scroll to about section"
-        style={{
-          // Ensure it's above everything and centered to viewport
-          position: 'fixed',
-        }}
       >
         {/* Text label for clarity */}
         <span 
