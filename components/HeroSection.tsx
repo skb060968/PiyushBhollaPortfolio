@@ -27,36 +27,41 @@ export default function HeroSection() {
         />
       </div>
 
-      {/* Scroll indicator - Bold and clear, always visible at bottom */}
+      {/* Scroll indicator - Fixed to viewport bottom, always visible and centered */}
       <a
         href="#resume"
-        className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 animate-bounce cursor-pointer pointer-events-auto flex flex-col items-center gap-2"
+        className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 animate-bounce cursor-pointer pointer-events-auto flex flex-col items-center gap-2"
         aria-label="Scroll to about section"
+        style={{
+          // Ensure it's above everything and centered to viewport
+          position: 'fixed',
+        }}
       >
         {/* Text label for clarity */}
         <span 
-          className="text-xs font-sans uppercase tracking-wider font-semibold"
+          className="text-xs sm:text-sm font-sans uppercase tracking-wider font-semibold whitespace-nowrap"
           style={{ 
             color: '#D4AF37',
-            textShadow: '0 2px 8px rgba(0,0,0,0.8), 0 0 20px rgba(212, 175, 55, 0.5)',
+            textShadow: '0 2px 8px rgba(0,0,0,0.9), 0 0 25px rgba(212, 175, 55, 0.6)',
           }}
         >
           Scroll Down
         </span>
         {/* Arrow icon - larger and more visible */}
         <div 
-          className="rounded-full p-2 flex items-center justify-center"
+          className="rounded-full p-3 flex items-center justify-center"
           style={{
-            backgroundColor: 'rgba(212, 175, 55, 0.2)',
-            border: '2px solid #D4AF37',
-            boxShadow: '0 4px 12px rgba(0,0,0,0.5), 0 0 20px rgba(212, 175, 55, 0.3)',
+            backgroundColor: 'rgba(212, 175, 55, 0.25)',
+            border: '3px solid #D4AF37',
+            boxShadow: '0 4px 16px rgba(0,0,0,0.6), 0 0 30px rgba(212, 175, 55, 0.4)',
           }}
         >
           <ArrowDown 
-            className="w-6 h-6 md:w-7 md:h-7" 
+            className="w-7 h-7 md:w-8 md:h-8" 
             style={{ 
               color: '#D4AF37',
-              filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.8))',
+              filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.9))',
+              strokeWidth: 2.5,
             }} 
           />
         </div>
