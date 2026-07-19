@@ -92,7 +92,7 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
                                 ? "ring-2 shadow-md scale-105"
                                 : "ring-1 ring-stone-600 hover:ring-stone-400 hover:shadow-md hover:scale-105"
                             }`}
-                          style={isActive ? { ringColor: '#D4AF37' } : {}}
+                          style={isActive ? { borderColor: '#D4AF37' } : {}}
                         >
                           {isActive && (
                             <div className="absolute inset-0 bg-gradient-to-t from-yellow-600/30 to-transparent z-10 pointer-events-none"></div>

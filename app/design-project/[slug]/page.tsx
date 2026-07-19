@@ -77,7 +77,7 @@ export default function DesignProjectDetailPage({ params }: { params: { slug: st
                   className="break-inside-avoid cursor-pointer group"
                   onClick={() => openLightbox(image)}
                 >
-                  <div className="relative overflow-hidden rounded-lg shadow-lg ring-1 transition-all duration-300 hover:shadow-2xl hover:scale-[1.02]" style={{ ringColor: '#D4AF37' }}>
+                  <div className="relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-2xl hover:scale-[1.02]">
                     <div className="relative w-full">
                       <Image
                         src={image}
