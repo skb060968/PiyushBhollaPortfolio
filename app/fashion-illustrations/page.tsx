@@ -110,14 +110,19 @@ export default function FashionIllustrationsPage() {
               </div>
             </div>
 
-            {/* Image Count Info */}
+            {/* Back Button at Bottom */}
             <div className="text-center mt-12">
-              <p className="font-sans text-sm uppercase tracking-wider mb-2" style={{ color: '#D4AF37', opacity: 0.8 }}>
-                {illustrations.length} Illustrations
-              </p>
-              <p className="font-sans text-xs uppercase tracking-wider" style={{ color: '#D4AF37', opacity: 0.6 }}>
-                Scroll horizontally to view all
-              </p>
+              <a
+                href="/#portfolio"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-sans text-sm font-semibold uppercase tracking-wider transition-all duration-300 hover:scale-105 hover:shadow-xl"
+                style={{ 
+                  backgroundColor: '#D4AF37',
+                  color: '#1f1f1f',
+                }}
+              >
+                <ArrowLeft size={20} />
+                Back to Portfolio
+              </a>
             </div>
           </div>
         </section>

@@ -113,19 +113,22 @@ export default async function CollectionDetailPage({ params }: Props) {
           <div className="text-center mt-16">
             <Link
               href={`/category/${slug}`}
-              className="font-sans inline-flex items-center px-6 py-3 border-2 rounded-full font-medium transition hover:bg-white/10"
-              style={{ color: '#D4AF37', borderColor: '#D4AF37' }}
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-sans text-sm font-semibold uppercase tracking-wider transition-all duration-300 hover:scale-105 hover:shadow-xl"
+              style={{ 
+                backgroundColor: '#D4AF37',
+                color: '#1f1f1f',
+              }}
             >
               <svg
-                className="w-5 h-5 mr-2"
+                className="w-5 h-5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
+                strokeWidth={2}
               >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  strokeWidth={2}
                   d="M15 19l-7-7 7-7"
                 />
               </svg>

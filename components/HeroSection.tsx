@@ -27,16 +27,39 @@ export default function HeroSection() {
         />
       </div>
 
-      {/* Scroll indicator */}
+      {/* Scroll indicator - Bold and clear, always visible at bottom */}
       <a
         href="#resume"
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 text-white animate-bounce cursor-pointer pointer-events-auto"
+        className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 animate-bounce cursor-pointer pointer-events-auto flex flex-col items-center gap-2"
         aria-label="Scroll to about section"
-        style={{
-          filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.6))',
-        }}
       >
-        <ArrowDown className="w-7 h-7 md:w-8 md:h-8" />
+        {/* Text label for clarity */}
+        <span 
+          className="text-xs font-sans uppercase tracking-wider font-semibold"
+          style={{ 
+            color: '#D4AF37',
+            textShadow: '0 2px 8px rgba(0,0,0,0.8), 0 0 20px rgba(212, 175, 55, 0.5)',
+          }}
+        >
+          Scroll Down
+        </span>
+        {/* Arrow icon - larger and more visible */}
+        <div 
+          className="rounded-full p-2 flex items-center justify-center"
+          style={{
+            backgroundColor: 'rgba(212, 175, 55, 0.2)',
+            border: '2px solid #D4AF37',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.5), 0 0 20px rgba(212, 175, 55, 0.3)',
+          }}
+        >
+          <ArrowDown 
+            className="w-6 h-6 md:w-7 md:h-7" 
+            style={{ 
+              color: '#D4AF37',
+              filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.8))',
+            }} 
+          />
+        </div>
       </a>
     </section>
   )
