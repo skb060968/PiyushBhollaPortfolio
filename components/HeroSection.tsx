@@ -18,14 +18,13 @@ export default function HeroSection() {
         paddingTop: '4rem', // Space for navbar
       }}
     >
-      {/* Hero image - smaller on mobile to ensure scroll indicator visibility */}
+      {/* Hero image - responsive sizing that maintains full width on desktop */}
       <div 
-        className="relative flex items-center justify-center"
+        className="relative flex items-center justify-center w-full md:w-full"
         style={{
-          width: '85vw',
-          height: '85vw',
-          maxWidth: '600px',
-          maxHeight: '600px',
+          width: '100%',
+          height: '70vh', // 70% of viewport height on mobile to leave space for scroll indicator
+          maxHeight: '800px',
         }}
       >
         <Image
