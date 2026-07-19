@@ -15,16 +15,17 @@ export default function HeroSection() {
         flexDirection: 'column',
         justifyContent: 'flex-start',
         alignItems: 'center',
-        paddingTop: '5rem', // Space for navbar
+        paddingTop: '4rem', // Space for navbar
       }}
     >
-      {/* Hero image - optimized for portrait mobile, aligned toward top on mobile */}
+      {/* Hero image - smaller on mobile to ensure scroll indicator visibility */}
       <div 
         className="relative flex items-center justify-center"
         style={{
-          width: '90vw',
-          height: '90vw',
-          maxHeight: 'calc(100vh - 10rem)', // Leave space for scroll indicator
+          width: '85vw',
+          height: '85vw',
+          maxWidth: '600px',
+          maxHeight: '600px',
         }}
       >
         <Image
@@ -37,13 +38,14 @@ export default function HeroSection() {
         />
       </div>
 
-      {/* Scroll indicator - Positioned at bottom, centered to viewport */}
+      {/* Spacer to push scroll indicator down */}
+      <div style={{ flex: 1 }} />
+
+      {/* Scroll indicator - Positioned at bottom, centered to viewport, always visible */}
       <div 
-        className="absolute w-full flex justify-center"
+        className="w-full flex justify-center pb-6 sm:pb-8"
         style={{
-          bottom: '2rem',
-          left: 0,
-          right: 0,
+          flexShrink: 0,
         }}
       >
         <a
