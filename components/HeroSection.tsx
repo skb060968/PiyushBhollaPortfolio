@@ -15,7 +15,7 @@ export default function HeroSection() {
         flexDirection: 'column',
         justifyContent: 'flex-start',
         alignItems: 'center',
-        paddingTop: '4rem', // Space for navbar
+        paddingTop: '2rem', // Minimal padding from top - moves everything up
       }}
     >
       {/* Hero image - responsive sizing that maintains full width on desktop */}
