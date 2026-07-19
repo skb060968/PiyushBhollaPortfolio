@@ -159,6 +159,21 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
               </div>
             </div>
           </div>
+
+          {/* Back Button at Bottom */}
+          <div className="text-center mt-16">
+            <button
+              onClick={handleBackToCollection}
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-sans text-sm font-semibold uppercase tracking-wider transition-all duration-300 hover:scale-105 hover:shadow-xl"
+              style={{ 
+                backgroundColor: '#D4AF37',
+                color: '#1f1f1f',
+              }}
+            >
+              <ArrowLeft size={20} />
+              {parentCollection ? `Back to ${parentCollection.name}` : 'Back to Collections'}
+            </button>
+          </div>
         </div>
       </section>
     </main>

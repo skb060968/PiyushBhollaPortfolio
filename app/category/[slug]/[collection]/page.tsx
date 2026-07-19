@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation"
 import Link from "next/link"
 import Image from "next/image"
+import { ArrowLeft } from "lucide-react"
 import { collections } from "@/lib/data/collections"
 import { projects } from "@/lib/data/projects"
 import { OrnateGoldFrame } from "@/components/FrameDesigns"
@@ -32,6 +33,16 @@ export default async function CollectionDetailPage({ params }: Props) {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20">
         <div className="container-custom">
+          {/* Back Link at Top */}
+          <Link
+            href={`/category/${slug}`}
+            className="inline-flex items-center gap-2 mb-8 transition group"
+            style={{ color: '#D4AF37' }}
+          >
+            <ArrowLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
+            <span className="font-sans text-sm uppercase tracking-wider">Back to All Collections</span>
+          </Link>
+
           <div className="max-w-4xl mx-auto text-center">
             <p className="font-sans text-sm font-medium tracking-wider uppercase mb-4" style={{ color: '#D4AF37' }}>
               {collection.season}
