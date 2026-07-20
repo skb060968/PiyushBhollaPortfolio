@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection"
 import ResumeSection from "@/components/ResumeSection"
 import CategoriesSection from "@/components/CategoriesSection"
+import RecommendationsSection from "@/components/RecommendationsSection"
 import Footer from "@/components/Footer"
 
 export default function HomePage() {
@@ -14,6 +15,9 @@ export default function HomePage() {
 
       {/* Clickable Categories Grid */}
       <CategoriesSection />
+
+      {/* Recommendations Section */}
+      <RecommendationsSection />
 
       {/* Footer */}
       <Footer />
