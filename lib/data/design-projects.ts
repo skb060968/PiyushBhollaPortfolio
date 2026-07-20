@@ -152,8 +152,6 @@ export const designProjects: DesignProject[] = [
       "/images/design-projects/neel-kamal/neel-kamal-05.webp",
       "/images/design-projects/neel-kamal/neel-kamal-06.webp",
       "/images/design-projects/neel-kamal/neel-kamal-07.webp",
-      "/images/design-projects/neel-kamal/neel-kamal-08.webp",
-      "/images/design-projects/neel-kamal/neel-kamal-09.webp",
     ],
   },
 ];
