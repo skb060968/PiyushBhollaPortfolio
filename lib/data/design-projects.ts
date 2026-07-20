@@ -11,7 +11,7 @@ export interface DesignProject {
 export const designProjects: DesignProject[] = [
   {
     slug: "valley-of-flowers",
-    name: "Valley of Flowers",
+    name: "Valley Of Flowers",
     description: "",
     coverImage: "/images/design-projects/valley-of-flowers.webp",
     images: [
@@ -113,7 +113,7 @@ export const designProjects: DesignProject[] = [
   },
   {
     slug: "nirvikara-the-untainted",
-    name: "Nirvikara — The Untainted",
+    name: "Nirvikara The Untainted",
     description: "",
     coverImage: "/images/design-projects/nirvikara-the-untainted.webp",
     images: [

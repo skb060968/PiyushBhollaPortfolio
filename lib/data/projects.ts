@@ -1,6 +1,169 @@
 // AUTO‑GENERATED FILE. Do not edit manually.
 export const projects = [
   {
+    "slug": "1dress",
+    "name": "Style 1",
+    "description": "",
+    "thumbnails": [
+      "/images/collection-lookbook/shop/thumbnails/1dress/1dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/1dress/1dress-cover.webp"
+    ],
+    "images": [
+      "/images/collection-lookbook/shop/items/1dress/1dress-1.webp",
+      "/images/collection-lookbook/shop/items/1dress/1dress-cover.webp"
+    ],
+    "coverImage": "/images/collection-lookbook/shop/items/1dress/1dress-cover.webp",
+    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/1dress/1dress-cover.webp"
+  },
+  {
+    "slug": "2dress",
+    "name": "Style 2",
+    "description": "",
+    "thumbnails": [
+      "/images/collection-lookbook/shop/thumbnails/2dress/2dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/2dress/2dress-2.webp",
+      "/images/collection-lookbook/shop/thumbnails/2dress/2dress-3.webp",
+      "/images/collection-lookbook/shop/thumbnails/2dress/2dress-cover.webp"
+    ],
+    "images": [
+      "/images/collection-lookbook/shop/items/2dress/2dress-1.webp",
+      "/images/collection-lookbook/shop/items/2dress/2dress-2.webp",
+      "/images/collection-lookbook/shop/items/2dress/2dress-3.webp",
+      "/images/collection-lookbook/shop/items/2dress/2dress-cover.webp"
+    ],
+    "coverImage": "/images/collection-lookbook/shop/items/2dress/2dress-cover.webp",
+    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/2dress/2dress-cover.webp"
+  },
+  {
+    "slug": "3dress",
+    "name": "Style 3",
+    "description": "",
+    "thumbnails": [
+      "/images/collection-lookbook/shop/thumbnails/3dress/3dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/3dress/3dress-2.webp",
+      "/images/collection-lookbook/shop/thumbnails/3dress/3dress-3.webp",
+      "/images/collection-lookbook/shop/thumbnails/3dress/3dress-4.webp",
+      "/images/collection-lookbook/shop/thumbnails/3dress/3dress-cover.webp"
+    ],
+    "images": [
+      "/images/collection-lookbook/shop/items/3dress/3dress-1.webp",
+      "/images/collection-lookbook/shop/items/3dress/3dress-2.webp",
+      "/images/collection-lookbook/shop/items/3dress/3dress-3.webp",
+      "/images/collection-lookbook/shop/items/3dress/3dress-4.webp",
+      "/images/collection-lookbook/shop/items/3dress/3dress-cover.webp"
+    ],
+    "coverImage": "/images/collection-lookbook/shop/items/3dress/3dress-cover.webp",
+    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/3dress/3dress-cover.webp"
+  },
+  {
+    "slug": "4dress",
+    "name": "Style 4",
+    "description": "",
+    "thumbnails": [
+      "/images/collection-lookbook/shop/thumbnails/4dress/4dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/4dress/4dress-2.webp",
+      "/images/collection-lookbook/shop/thumbnails/4dress/4dress-3.webp",
+      "/images/collection-lookbook/shop/thumbnails/4dress/4dress-cover.webp"
+    ],
+    "images": [
+      "/images/collection-lookbook/shop/items/4dress/4dress-1.webp",
+      "/images/collection-lookbook/shop/items/4dress/4dress-2.webp",
+      "/images/collection-lookbook/shop/items/4dress/4dress-3.webp",
+      "/images/collection-lookbook/shop/items/4dress/4dress-cover.webp"
+    ],
+    "coverImage": "/images/collection-lookbook/shop/items/4dress/4dress-cover.webp",
+    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/4dress/4dress-cover.webp"
+  },
+  {
+    "slug": "5dress",
+    "name": "Style 5",
+    "description": "",
+    "thumbnails": [
+      "/images/collection-lookbook/shop/thumbnails/5dress/5dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/5dress/5dress-2.webp",
+      "/images/collection-lookbook/shop/thumbnails/5dress/5dress-3.webp",
+      "/images/collection-lookbook/shop/thumbnails/5dress/5dress-4.webp",
+      "/images/collection-lookbook/shop/thumbnails/5dress/5dress-5.webp",
+      "/images/collection-lookbook/shop/thumbnails/5dress/5dress-cover.webp"
+    ],
+    "images": [
+      "/images/collection-lookbook/shop/items/5dress/5dress-1.webp",
+      "/images/collection-lookbook/shop/items/5dress/5dress-2.webp",
+      "/images/collection-lookbook/shop/items/5dress/5dress-3.webp",
+      "/images/collection-lookbook/shop/items/5dress/5dress-4.webp",
+      "/images/collection-lookbook/shop/items/5dress/5dress-5.webp",
+      "/images/collection-lookbook/shop/items/5dress/5dress-cover.webp"
+    ],
+    "coverImage": "/images/collection-lookbook/shop/items/5dress/5dress-cover.webp",
+    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/5dress/5dress-cover.webp"
+  },
+  {
+    "slug": "6dress",
+    "name": "Style 6",
+    "description": "",
+    "thumbnails": [
+      "/images/collection-lookbook/shop/thumbnails/6dress/6dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/6dress/6dress-cover.webp"
+    ],
+    "images": [
+      "/images/collection-lookbook/shop/items/6dress/6dress-1.webp",
+      "/images/collection-lookbook/shop/items/6dress/6dress-cover.webp"
+    ],
+    "coverImage": "/images/collection-lookbook/shop/items/6dress/6dress-cover.webp",
+    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/6dress/6dress-cover.webp"
+  },
+  {
+    "slug": "7dress",
+    "name": "Style 7",
+    "description": "",
+    "thumbnails": [
+      "/images/collection-lookbook/shop/thumbnails/7dress/7dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/7dress/7dress-2.webp",
+      "/images/collection-lookbook/shop/thumbnails/7dress/7dress-3.webp",
+      "/images/collection-lookbook/shop/thumbnails/7dress/7dress-cover.webp"
+    ],
+    "images": [
+      "/images/collection-lookbook/shop/items/7dress/7dress-1.webp",
+      "/images/collection-lookbook/shop/items/7dress/7dress-2.webp",
+      "/images/collection-lookbook/shop/items/7dress/7dress-3.webp",
+      "/images/collection-lookbook/shop/items/7dress/7dress-cover.webp"
+    ],
+    "coverImage": "/images/collection-lookbook/shop/items/7dress/7dress-cover.webp",
+    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/7dress/7dress-cover.webp"
+  },
+  {
+    "slug": "8dress",
+    "name": "Style 8",
+    "description": "",
+    "thumbnails": [
+      "/images/collection-lookbook/shop/thumbnails/8dress/8dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/8dress/8dress-cover.webp"
+    ],
+    "images": [
+      "/images/collection-lookbook/shop/items/8dress/8dress-1.webp",
+      "/images/collection-lookbook/shop/items/8dress/8dress-cover.webp"
+    ],
+    "coverImage": "/images/collection-lookbook/shop/items/8dress/8dress-cover.webp",
+    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/8dress/8dress-cover.webp"
+  },
+  {
+    "slug": "9dress",
+    "name": "Style 9",
+    "description": "",
+    "thumbnails": [
+      "/images/collection-lookbook/shop/thumbnails/9dress/9dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/9dress/9dress-2.webp",
+      "/images/collection-lookbook/shop/thumbnails/9dress/9dress-cover.webp"
+    ],
+    "images": [
+      "/images/collection-lookbook/shop/items/9dress/9dress-1.webp",
+      "/images/collection-lookbook/shop/items/9dress/9dress-2.webp",
+      "/images/collection-lookbook/shop/items/9dress/9dress-cover.webp"
+    ],
+    "coverImage": "/images/collection-lookbook/shop/items/9dress/9dress-cover.webp",
+    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/9dress/9dress-cover.webp"
+  },
+  {
     "slug": "10dress",
     "name": "Style 10",
     "description": "",
@@ -159,21 +322,6 @@ export const projects = [
     "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/19dress/19dress-cover.webp"
   },
   {
-    "slug": "1dress",
-    "name": "Style 1",
-    "description": "",
-    "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/1dress/1dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/1dress/1dress-cover.webp"
-    ],
-    "images": [
-      "/images/collection-lookbook/shop/items/1dress/1dress-1.webp",
-      "/images/collection-lookbook/shop/items/1dress/1dress-cover.webp"
-    ],
-    "coverImage": "/images/collection-lookbook/shop/items/1dress/1dress-cover.webp",
-    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/1dress/1dress-cover.webp"
-  },
-  {
     "slug": "20dress",
     "name": "Style 20",
     "description": "",
@@ -225,154 +373,6 @@ export const projects = [
     ],
     "coverImage": "/images/collection-lookbook/shop/items/22dress/22dress-cover.webp",
     "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/22dress/22dress-cover.webp"
-  },
-  {
-    "slug": "2dress",
-    "name": "Style 2",
-    "description": "",
-    "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/2dress/2dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/2dress/2dress-2.webp",
-      "/images/collection-lookbook/shop/thumbnails/2dress/2dress-3.webp",
-      "/images/collection-lookbook/shop/thumbnails/2dress/2dress-cover.webp"
-    ],
-    "images": [
-      "/images/collection-lookbook/shop/items/2dress/2dress-1.webp",
-      "/images/collection-lookbook/shop/items/2dress/2dress-2.webp",
-      "/images/collection-lookbook/shop/items/2dress/2dress-3.webp",
-      "/images/collection-lookbook/shop/items/2dress/2dress-cover.webp"
-    ],
-    "coverImage": "/images/collection-lookbook/shop/items/2dress/2dress-cover.webp",
-    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/2dress/2dress-cover.webp"
-  },
-  {
-    "slug": "3dress",
-    "name": "Style 3",
-    "description": "",
-    "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/3dress/3dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/3dress/3dress-2.webp",
-      "/images/collection-lookbook/shop/thumbnails/3dress/3dress-3.webp",
-      "/images/collection-lookbook/shop/thumbnails/3dress/3dress-4.webp",
-      "/images/collection-lookbook/shop/thumbnails/3dress/3dress-cover.webp"
-    ],
-    "images": [
-      "/images/collection-lookbook/shop/items/3dress/3dress-1.webp",
-      "/images/collection-lookbook/shop/items/3dress/3dress-2.webp",
-      "/images/collection-lookbook/shop/items/3dress/3dress-3.webp",
-      "/images/collection-lookbook/shop/items/3dress/3dress-4.webp",
-      "/images/collection-lookbook/shop/items/3dress/3dress-cover.webp"
-    ],
-    "coverImage": "/images/collection-lookbook/shop/items/3dress/3dress-cover.webp",
-    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/3dress/3dress-cover.webp"
-  },
-  {
-    "slug": "4dress",
-    "name": "Style 4",
-    "description": "",
-    "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/4dress/4dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/4dress/4dress-2.webp",
-      "/images/collection-lookbook/shop/thumbnails/4dress/4dress-3.webp",
-      "/images/collection-lookbook/shop/thumbnails/4dress/4dress-cover.webp"
-    ],
-    "images": [
-      "/images/collection-lookbook/shop/items/4dress/4dress-1.webp",
-      "/images/collection-lookbook/shop/items/4dress/4dress-2.webp",
-      "/images/collection-lookbook/shop/items/4dress/4dress-3.webp",
-      "/images/collection-lookbook/shop/items/4dress/4dress-cover.webp"
-    ],
-    "coverImage": "/images/collection-lookbook/shop/items/4dress/4dress-cover.webp",
-    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/4dress/4dress-cover.webp"
-  },
-  {
-    "slug": "5dress",
-    "name": "Style 5",
-    "description": "",
-    "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/5dress/5dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/5dress/5dress-2.webp",
-      "/images/collection-lookbook/shop/thumbnails/5dress/5dress-3.webp",
-      "/images/collection-lookbook/shop/thumbnails/5dress/5dress-4.webp",
-      "/images/collection-lookbook/shop/thumbnails/5dress/5dress-5.webp",
-      "/images/collection-lookbook/shop/thumbnails/5dress/5dress-cover.webp"
-    ],
-    "images": [
-      "/images/collection-lookbook/shop/items/5dress/5dress-1.webp",
-      "/images/collection-lookbook/shop/items/5dress/5dress-2.webp",
-      "/images/collection-lookbook/shop/items/5dress/5dress-3.webp",
-      "/images/collection-lookbook/shop/items/5dress/5dress-4.webp",
-      "/images/collection-lookbook/shop/items/5dress/5dress-5.webp",
-      "/images/collection-lookbook/shop/items/5dress/5dress-cover.webp"
-    ],
-    "coverImage": "/images/collection-lookbook/shop/items/5dress/5dress-cover.webp",
-    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/5dress/5dress-cover.webp"
-  },
-  {
-    "slug": "6dress",
-    "name": "Style 6",
-    "description": "",
-    "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/6dress/6dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/6dress/6dress-cover.webp"
-    ],
-    "images": [
-      "/images/collection-lookbook/shop/items/6dress/6dress-1.webp",
-      "/images/collection-lookbook/shop/items/6dress/6dress-cover.webp"
-    ],
-    "coverImage": "/images/collection-lookbook/shop/items/6dress/6dress-cover.webp",
-    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/6dress/6dress-cover.webp"
-  },
-  {
-    "slug": "7dress",
-    "name": "Style 7",
-    "description": "",
-    "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/7dress/7dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/7dress/7dress-2.webp",
-      "/images/collection-lookbook/shop/thumbnails/7dress/7dress-3.webp",
-      "/images/collection-lookbook/shop/thumbnails/7dress/7dress-cover.webp"
-    ],
-    "images": [
-      "/images/collection-lookbook/shop/items/7dress/7dress-1.webp",
-      "/images/collection-lookbook/shop/items/7dress/7dress-2.webp",
-      "/images/collection-lookbook/shop/items/7dress/7dress-3.webp",
-      "/images/collection-lookbook/shop/items/7dress/7dress-cover.webp"
-    ],
-    "coverImage": "/images/collection-lookbook/shop/items/7dress/7dress-cover.webp",
-    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/7dress/7dress-cover.webp"
-  },
-  {
-    "slug": "8dress",
-    "name": "Style 8",
-    "description": "",
-    "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/8dress/8dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/8dress/8dress-cover.webp"
-    ],
-    "images": [
-      "/images/collection-lookbook/shop/items/8dress/8dress-1.webp",
-      "/images/collection-lookbook/shop/items/8dress/8dress-cover.webp"
-    ],
-    "coverImage": "/images/collection-lookbook/shop/items/8dress/8dress-cover.webp",
-    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/8dress/8dress-cover.webp"
-  },
-  {
-    "slug": "9dress",
-    "name": "Style 9",
-    "description": "",
-    "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/9dress/9dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/9dress/9dress-2.webp",
-      "/images/collection-lookbook/shop/thumbnails/9dress/9dress-cover.webp"
-    ],
-    "images": [
-      "/images/collection-lookbook/shop/items/9dress/9dress-1.webp",
-      "/images/collection-lookbook/shop/items/9dress/9dress-2.webp",
-      "/images/collection-lookbook/shop/items/9dress/9dress-cover.webp"
-    ],
-    "coverImage": "/images/collection-lookbook/shop/items/9dress/9dress-cover.webp",
-    "coverThumbnail": "/images/collection-lookbook/shop/thumbnails/9dress/9dress-cover.webp"
   }
 ];
 
