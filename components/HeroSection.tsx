@@ -11,24 +11,14 @@ export default function HeroSection() {
       style={{
         backgroundColor: '#1f1f1f',
         height: '100vh',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'flex-start',
-        alignItems: 'center',
-        paddingTop: '2rem', // Minimal padding from top - moves everything up
       }}
     >
-      {/* Hero image - responsive sizing that maintains full width on desktop */}
+      {/* Hero image - 70vh on mobile to leave space, full viewport height on desktop/tablet */}
       <div 
-        className="relative flex items-center justify-center w-full md:w-full"
-        style={{
-          width: '100%',
-          height: '70vh', // 70% of viewport height on mobile to leave space for scroll indicator
-          maxHeight: '800px',
-        }}
+        className="relative w-full h-[70vh] pt-8 md:h-screen md:pt-0"
       >
         <Image
-          src="/images/hero.webp"
+          src="/images/home/hero.webp"
           alt="Piyush Bholla"
           fill
           className="object-contain"
@@ -37,19 +27,11 @@ export default function HeroSection() {
         />
       </div>
 
-      {/* Spacer to push scroll indicator down */}
-      <div style={{ flex: 1 }} />
-
-      {/* Scroll indicator - Positioned at bottom, centered to viewport, always visible */}
-      <div 
-        className="w-full flex justify-center pb-6 sm:pb-8"
-        style={{
-          flexShrink: 0,
-        }}
-      >
+      {/* Scroll indicator - Absolute position at bottom on mobile, overlays image on desktop */}
+      <div className="absolute bottom-6 sm:bottom-8 left-0 right-0 w-full flex justify-center z-20">
         <a
           href="#resume"
-          className="animate-bounce cursor-pointer flex flex-col items-center gap-2 z-20"
+          className="animate-bounce cursor-pointer flex flex-col items-center gap-2"
           aria-label="Scroll to about section"
         >
           {/* Text label for clarity */}

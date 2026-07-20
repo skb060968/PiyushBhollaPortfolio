@@ -16,13 +16,13 @@ import {
 export default function FrameDemoPage() {
   // Sample images from actual collection lineup
   const sampleImages = [
-    "/images/shop/items/1dress/1dress-cover.webp",
-    "/images/shop/items/10dress/10dress-cover.webp",
-    "/images/shop/items/15dress/15dress-cover.webp",
-    "/images/shop/items/6dress/6dress-cover.webp",
-    "/images/shop/items/3dress/3dress-cover.webp",
-    "/images/shop/items/5dress/5dress-cover.webp",
-    "/images/shop/items/2dress/2dress-cover.webp",
+    "/images/collection-lookbook/shop/items/1dress/1dress-cover.webp",
+    "/images/collection-lookbook/shop/items/10dress/10dress-cover.webp",
+    "/images/collection-lookbook/shop/items/15dress/15dress-cover.webp",
+    "/images/collection-lookbook/shop/items/6dress/6dress-cover.webp",
+    "/images/collection-lookbook/shop/items/3dress/3dress-cover.webp",
+    "/images/collection-lookbook/shop/items/5dress/5dress-cover.webp",
+    "/images/collection-lookbook/shop/items/2dress/2dress-cover.webp",
   ]
 
   const frames = [

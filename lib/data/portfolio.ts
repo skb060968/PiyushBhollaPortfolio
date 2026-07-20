@@ -11,17 +11,17 @@ export const portfolioData: Record<string, Category> = {
   "design-projects": {
     title: "Design Projects",
     description: "",
-    thumbnail: "/images/design.webp",
+    thumbnail: "/images/home/design.webp",
   },
   "fashion-illustrations": {
     title: "Fashion Illustrations",
     description: "",
-    thumbnail: "/images/fashion.webp",
+    thumbnail: "/images/home/fashion.webp",
   },
-  "collections-lineup": {
-    title: "Collections Lineup",
+  "collection-lookbook": {
+    title: "Collection Lookbook",
     description: "",
-    thumbnail: "/images/collection.webp",
+    thumbnail: "/images/home/collection.webp",
   },
 }
 

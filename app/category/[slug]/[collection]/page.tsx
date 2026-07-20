@@ -10,7 +10,7 @@ type Props = { params: Promise<{ slug: string; collection: string }> }
 
 export async function generateStaticParams() {
   return collections.map((collection) => ({
-    slug: "design-projects",
+    slug: "collection-lookbook",
     collection: collection.slug
   }))
 }
@@ -54,23 +54,12 @@ export default async function CollectionDetailPage({ params }: Props) {
               {collection.description}
             </p>
 
-            {/* Mood and Inspiration */}
+            {/* Collection Details */}
             <div className="flex flex-col items-center gap-4 text-base mb-6" style={{ color: '#D4AF37', opacity: 0.8 }}>
               <div className="flex flex-wrap items-center justify-center gap-6">
                 <div className="font-sans">
-                  <span className="font-semibold">Mood:</span> {collection.mood}
-                </div>
-                <div className="w-1 h-1 rounded-full" style={{ backgroundColor: '#D4AF37' }} />
-                <div className="font-sans">
                   <span className="font-semibold">{collectionProjects.length}</span> Pieces
                 </div>
-              </div>
-
-              {/* Inspiration */}
-              <div className="max-w-2xl">
-                <p className="font-sans leading-relaxed" style={{ color: '#D4AF37', opacity: 0.8 }}>
-                  <span className="font-semibold">Inspiration:</span> {collection.inspiration}
-                </p>
               </div>
             </div>
 

@@ -26,7 +26,7 @@ export default function CategoryPage({
 
   // Determine what to show based on category slug
   const isDesignProjects = params.slug === "design-projects"
-  const isCollectionsLineup = params.slug === "collections-lineup"
+  const isCollectionLookbook = params.slug === "collection-lookbook"
 
   return (
     <main className="min-h-screen" style={{ backgroundColor: '#1f1f1f' }}>
@@ -61,7 +61,7 @@ export default function CategoryPage({
               </p>
             )}
 
-            {isCollectionsLineup && (
+            {isCollectionLookbook && (
               <p className="font-sans text-lg leading-relaxed mb-8" style={{ color: '#D4AF37', opacity: 0.9 }}>
                 Each collection tells a story—of heritage, innovation, and the artistry of fashion. Explore curated pieces that transcend trends and celebrate timeless elegance.
               </p>
@@ -121,7 +121,7 @@ export default function CategoryPage({
       )}
 
       {/* COLLECTIONS LINEUP - Show collections grid */}
-      {isCollectionsLineup && (
+      {isCollectionLookbook && (
         <section className="pb-24">
           <div className="container-custom">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
@@ -156,9 +156,6 @@ export default function CategoryPage({
                           </h3>
                           <p className="font-sans text-sm text-gray-200 mb-4 line-clamp-2">
                             {collection.description}
-                          </p>
-                          <p className="font-sans text-xs tracking-wide uppercase" style={{ color: '#D4AF37' }}>
-                            {collection.mood}
                           </p>
                         </div>
                       </div>

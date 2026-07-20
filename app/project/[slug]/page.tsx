@@ -23,9 +23,10 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
 
   const handleBackToCollection = () => {
     if (parentCollection) {
-      router.push(`/category/design-projects/${parentCollection.slug}`)
+      // Use collection-lookbook as the parent category since collections belong to Collection Lookbook
+      router.push(`/category/collection-lookbook/${parentCollection.slug}`)
     } else {
-      router.push('/category/design-projects')
+      router.push('/category/collection-lookbook')
     }
   }
 

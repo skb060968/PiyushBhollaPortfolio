@@ -56,7 +56,7 @@ export default function ResumeSection() {
                         {/* Image container */}
                         <div className="relative w-full h-full overflow-hidden shadow-lg">
                           <Image
-                            src="/images/piyush.webp"
+                            src="/images/home/piyush.webp"
                             alt={designer.name}
                             fill
                             className="object-cover"
