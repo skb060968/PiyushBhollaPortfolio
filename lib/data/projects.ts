@@ -363,10 +363,12 @@ export const projects = [
     "description": "",
     "thumbnails": [
       "/images/collection-lookbook/shop/thumbnails/9dress/9dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/9dress/9dress-2.webp",
       "/images/collection-lookbook/shop/thumbnails/9dress/9dress-cover.webp"
     ],
     "images": [
       "/images/collection-lookbook/shop/items/9dress/9dress-1.webp",
+      "/images/collection-lookbook/shop/items/9dress/9dress-2.webp",
       "/images/collection-lookbook/shop/items/9dress/9dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/9dress/9dress-cover.webp",
