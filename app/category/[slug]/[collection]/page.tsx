@@ -91,18 +91,11 @@ export default async function CollectionDetailPage({ params }: Props) {
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     />
 
-                    {/* Project name overlay */}
-                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
-                      <h3 className="font-display text-xl font-medium text-white">
-                        {project.name}
-                      </h3>
-                    </div>
-
-                    {/* Hover CTA */}
-                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                      <span className="font-sans px-5 py-2 bg-white text-sm font-medium rounded-full shadow-lg">
-                        View Details
-                      </span>
+                    {/* VIEW Button Overlay - Bottom Center */}
+                    <div className="absolute bottom-0 left-0 right-0 flex justify-center pb-6">
+                      <button className="font-sans text-sm font-semibold uppercase tracking-wider animate-view-button inline-block" style={{ color: '#D4AF37' }}>
+                        VIEW
+                      </button>
                     </div>
                   </div>
                 </OrnateGoldFrame>

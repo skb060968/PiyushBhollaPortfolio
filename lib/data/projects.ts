@@ -852,12 +852,13 @@ export const projects = [
     "name": "Style 40",
     "description": "",
     "thumbnails": [
+      "/images/collection-lookbook/shop/thumbnails/40dress/20241125_152322.webp",
       "/images/collection-lookbook/shop/thumbnails/40dress/40dre.webp",
       "/images/collection-lookbook/shop/thumbnails/40dress/IMG_2772.webp",
       "/images/collection-lookbook/shop/thumbnails/40dress/40dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/40dress/40dre.webp",
+      "/images/collection-lookbook/shop/items/40dress/20241125_152322.webp",
       "/images/collection-lookbook/shop/items/40dress/IMG_2772.webp",
       "/images/collection-lookbook/shop/items/40dress/40dress-cover.webp"
     ],

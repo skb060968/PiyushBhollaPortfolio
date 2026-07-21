@@ -72,8 +72,17 @@ export default function RecommendationsSection() {
                   </p>
                   <p className="font-sans text-sm drop-shadow" style={{ color: '#D4AF37' }}>
                     {recommendation.role}
-                    {recommendation.company && ` • ${recommendation.company}`}
                   </p>
+                  {recommendation.company && (
+                    <p className="font-sans text-sm drop-shadow" style={{ color: '#D4AF37' }}>
+                      {recommendation.company}
+                    </p>
+                  )}
+                  {recommendation.location && (
+                    <p className="font-sans text-sm drop-shadow" style={{ color: '#D4AF37' }}>
+                      {recommendation.location}
+                    </p>
+                  )}
                 </div>
               </div>
             </div>
