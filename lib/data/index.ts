@@ -63,7 +63,7 @@ export const siteData = {
       "Mr. Spectrum Award – Runner-up 2023, NIFT",
       "Choreographer & Stylist: Indian Handloom Day - Faculty Fashion Show, NIFT",
       "Dean's List – Fall 2024, Fashion Institute of Technology (FIT)",
-      "Dean's List – Fall 2025, Fashion Institute of Technology (FIT)",
+      "Dean's List – Spring 2025, Fashion Institute of Technology (FIT)",
       "Winner - NIF Global presents GenNext Designer Program x FDCI (Lakme fashion week) Graduation project",
     ],
     

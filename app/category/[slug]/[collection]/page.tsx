@@ -91,10 +91,16 @@ export default async function CollectionDetailPage({ params }: Props) {
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     />
 
-                    {/* VIEW Button Overlay - Bottom Center */}
+                    {/* VIEW MORE Button Overlay - Bottom Center */}
                     <div className="absolute bottom-0 left-0 right-0 flex justify-center pb-6">
-                      <button className="font-sans text-sm font-semibold uppercase tracking-wider animate-view-button inline-block" style={{ color: '#D4AF37' }}>
-                        VIEW
+                      <button 
+                        className="font-sans text-sm font-semibold uppercase tracking-wider animate-view-button inline-block px-6 py-2 rounded-full" 
+                        style={{ 
+                          color: '#D4AF37',
+                          backgroundColor: 'rgba(0, 0, 0, 0.5)'
+                        }}
+                      >
+                        VIEW MORE
                       </button>
                     </div>
                   </div>

@@ -158,13 +158,13 @@ export default function CategoryPage({
                             {collection.description}
                           </p>
                         </div>
-                      </div>
-
-                      {/* Hover CTA */}
-                      <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                        <span className="font-sans px-8 py-3 bg-white rounded-full shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500" style={{ color: '#1f1f1f' }}>
-                          Explore Collection
-                        </span>
+                        
+                        {/* VIEW Button - Bottom Center (design-projects style) */}
+                        <div className="absolute bottom-0 left-0 right-0 flex justify-center pb-4">
+                          <button className="font-sans text-sm font-semibold uppercase tracking-wider animate-view-button inline-block" style={{ color: '#D4AF37' }}>
+                            VIEW
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </OrnateGoldFrame>
