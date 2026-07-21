@@ -29,7 +29,7 @@ export default function RecommendationsSection() {
           </h2>
           <div className="w-24 h-1 mx-auto mb-6" style={{ backgroundColor: '#D4AF37' }} />
           <p className="font-sans text-lg drop-shadow" style={{ color: '#D4AF37' }}>
-            What people say about working with me
+            What people say about me
           </p>
         </div>
 
