@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useRef, useEffect } from "react"
 import { notFound, useRouter } from "next/navigation"
 import Image from "next/image"
 import { ArrowLeft } from "lucide-react"
@@ -20,6 +20,45 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
   const parentCollection = collections.find(c => c.projects.includes(project.slug))
 
   const [activeImage, setActiveImage] = useState(project.coverImage)
+  const [activeIndex, setActiveIndex] = useState(0)
+  const touchStartX = useRef<number>(0)
+  const touchEndX = useRef<number>(0)
+  const imageRef = useRef<HTMLDivElement>(null)
+
+  // Create array of full-size images from thumbnails
+  const imagesList = [...project.thumbnails].reverse().map((thumb) => {
+    const filename = thumb.split("/").pop()
+    return project.images.find(img => img.endsWith(filename || "")) || project.coverImage
+  })
+
+  // Update active image when index changes
+  useEffect(() => {
+    setActiveImage(imagesList[activeIndex])
+  }, [activeIndex, imagesList])
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.targetTouches[0].clientX
+  }
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    touchEndX.current = e.targetTouches[0].clientX
+  }
+
+  const handleTouchEnd = () => {
+    if (touchStartX.current - touchEndX.current > 50) {
+      // Swiped left - show next image
+      if (activeIndex < imagesList.length - 1) {
+        setActiveIndex(activeIndex + 1)
+      }
+    }
+
+    if (touchStartX.current - touchEndX.current < -50) {
+      // Swiped right - show previous image
+      if (activeIndex > 0) {
+        setActiveIndex(activeIndex - 1)
+      }
+    }
+  }
 
   const handleBackToCollection = () => {
     if (parentCollection) {
@@ -50,7 +89,13 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
             {/* IMAGE COLUMN */}
             <div className="flex flex-col items-center w-full">
               {/* Main Image with Premium Frame */}
-              <div className="relative inline-block w-full max-w-md">
+              <div 
+                ref={imageRef}
+                className="relative inline-block w-full max-w-md touch-pan-y"
+                onTouchStart={handleTouchStart}
+                onTouchMove={handleTouchMove}
+                onTouchEnd={handleTouchEnd}
+              >
                 <OrnateGoldFrame className="shadow-xl sm:shadow-2xl">
                   <div className="relative overflow-hidden rounded-xl sm:rounded-2xl shadow-lg ring-1 ring-stone-200">
                     <div className="w-full aspect-[3/4] bg-stone-100 relative">
@@ -64,6 +109,22 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
                     </div>
                   </div>
                 </OrnateGoldFrame>
+                
+                {/* Swipe indicator for touch devices */}
+                {imagesList.length > 1 && (
+                  <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-1.5 pointer-events-none md:hidden">
+                    {imagesList.map((_, idx) => (
+                      <div
+                        key={idx}
+                        className="w-1.5 h-1.5 rounded-full transition-all duration-300"
+                        style={{
+                          backgroundColor: idx === activeIndex ? '#D4AF37' : 'rgba(255, 255, 255, 0.5)',
+                          transform: idx === activeIndex ? 'scale(1.3)' : 'scale(1)',
+                        }}
+                      />
+                    ))}
+                  </div>
+                )}
               </div>
 
               {/* Thumbnail Gallery */}
@@ -78,14 +139,12 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
                       const correspondingItem = project.images.find(img =>
                         img.endsWith(filename || "")
                       )
-                      const isActive = correspondingItem === activeImage
+                      const isActive = index === activeIndex
 
                       return (
                         <button
                           key={thumb}
-                          onClick={() =>
-                            setActiveImage(correspondingItem || project.coverImage)
-                          }
+                          onClick={() => setActiveIndex(index)}
                           aria-pressed={isActive}
                           className={`relative flex-shrink-0 w-12 sm:w-14 md:w-16 aspect-[3/4] rounded-md transition-all duration-300 ease-out
                             ${
