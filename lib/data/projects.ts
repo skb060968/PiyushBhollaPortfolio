@@ -5,11 +5,13 @@ export const projects = [
     "name": "Style 1",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/1dress/1dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/1dress/DSCF7418.webp",
+      "/images/collection-lookbook/shop/thumbnails/1dress/IMG_4433.webp",
       "/images/collection-lookbook/shop/thumbnails/1dress/1dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/1dress/1dress-1.webp",
+      "/images/collection-lookbook/shop/items/1dress/DSCF7418.webp",
+      "/images/collection-lookbook/shop/items/1dress/IMG_4433.webp",
       "/images/collection-lookbook/shop/items/1dress/1dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/1dress/1dress-cover.webp",
@@ -20,15 +22,13 @@ export const projects = [
     "name": "Style 2",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/2dress/2dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/2dress/2dress-2.webp",
-      "/images/collection-lookbook/shop/thumbnails/2dress/2dress-3.webp",
+      "/images/collection-lookbook/shop/thumbnails/2dress/2dress.webp",
+      "/images/collection-lookbook/shop/thumbnails/2dress/IMG_4435.webp",
       "/images/collection-lookbook/shop/thumbnails/2dress/2dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/2dress/2dress-1.webp",
-      "/images/collection-lookbook/shop/items/2dress/2dress-2.webp",
-      "/images/collection-lookbook/shop/items/2dress/2dress-3.webp",
+      "/images/collection-lookbook/shop/items/2dress/2dress.webp",
+      "/images/collection-lookbook/shop/items/2dress/IMG_4435.webp",
       "/images/collection-lookbook/shop/items/2dress/2dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/2dress/2dress-cover.webp",
@@ -39,17 +39,15 @@ export const projects = [
     "name": "Style 3",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/3dress/3dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/3dress/3dress-2.webp",
-      "/images/collection-lookbook/shop/thumbnails/3dress/3dress-3.webp",
-      "/images/collection-lookbook/shop/thumbnails/3dress/3dress-4.webp",
+      "/images/collection-lookbook/shop/thumbnails/3dress/IMG_5181.webp",
+      "/images/collection-lookbook/shop/thumbnails/3dress/IMG_5184.webp",
+      "/images/collection-lookbook/shop/thumbnails/3dress/IMG_5185.webp",
       "/images/collection-lookbook/shop/thumbnails/3dress/3dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/3dress/3dress-1.webp",
-      "/images/collection-lookbook/shop/items/3dress/3dress-2.webp",
-      "/images/collection-lookbook/shop/items/3dress/3dress-3.webp",
-      "/images/collection-lookbook/shop/items/3dress/3dress-4.webp",
+      "/images/collection-lookbook/shop/items/3dress/IMG_5181.webp",
+      "/images/collection-lookbook/shop/items/3dress/IMG_5184.webp",
+      "/images/collection-lookbook/shop/items/3dress/IMG_5185.webp",
       "/images/collection-lookbook/shop/items/3dress/3dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/3dress/3dress-cover.webp",
@@ -60,15 +58,21 @@ export const projects = [
     "name": "Style 4",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/4dress/4dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/4dress/4dress-2.webp",
-      "/images/collection-lookbook/shop/thumbnails/4dress/4dress-3.webp",
+      "/images/collection-lookbook/shop/thumbnails/4dress/IMG_1787.webp",
+      "/images/collection-lookbook/shop/thumbnails/4dress/IMG_1790.webp",
+      "/images/collection-lookbook/shop/thumbnails/4dress/IMG_1797.webp",
+      "/images/collection-lookbook/shop/thumbnails/4dress/IMG_2542.webp",
+      "/images/collection-lookbook/shop/thumbnails/4dress/IMG_2546.webp",
+      "/images/collection-lookbook/shop/thumbnails/4dress/IMG_2568.webp",
       "/images/collection-lookbook/shop/thumbnails/4dress/4dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/4dress/4dress-1.webp",
-      "/images/collection-lookbook/shop/items/4dress/4dress-2.webp",
-      "/images/collection-lookbook/shop/items/4dress/4dress-3.webp",
+      "/images/collection-lookbook/shop/items/4dress/IMG_1787.webp",
+      "/images/collection-lookbook/shop/items/4dress/IMG_1790.webp",
+      "/images/collection-lookbook/shop/items/4dress/IMG_1797.webp",
+      "/images/collection-lookbook/shop/items/4dress/IMG_2542.webp",
+      "/images/collection-lookbook/shop/items/4dress/IMG_2546.webp",
+      "/images/collection-lookbook/shop/items/4dress/IMG_2568.webp",
       "/images/collection-lookbook/shop/items/4dress/4dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/4dress/4dress-cover.webp",
@@ -102,11 +106,13 @@ export const projects = [
     "name": "Style 6",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/6dress/6dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/6dress/IMG_1690.webp",
+      "/images/collection-lookbook/shop/thumbnails/6dress/IMG_1885.webp",
       "/images/collection-lookbook/shop/thumbnails/6dress/6dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/6dress/6dress-1.webp",
+      "/images/collection-lookbook/shop/items/6dress/IMG_1690.webp",
+      "/images/collection-lookbook/shop/items/6dress/IMG_1885.webp",
       "/images/collection-lookbook/shop/items/6dress/6dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/6dress/6dress-cover.webp",
@@ -117,15 +123,15 @@ export const projects = [
     "name": "Style 7",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/7dress/7dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/7dress/7dress-2.webp",
-      "/images/collection-lookbook/shop/thumbnails/7dress/7dress-3.webp",
+      "/images/collection-lookbook/shop/thumbnails/7dress/IMG_5154.webp",
+      "/images/collection-lookbook/shop/thumbnails/7dress/IMG_5166.webp",
+      "/images/collection-lookbook/shop/thumbnails/7dress/IMG_5172.webp",
       "/images/collection-lookbook/shop/thumbnails/7dress/7dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/7dress/7dress-1.webp",
-      "/images/collection-lookbook/shop/items/7dress/7dress-2.webp",
-      "/images/collection-lookbook/shop/items/7dress/7dress-3.webp",
+      "/images/collection-lookbook/shop/items/7dress/IMG_5154.webp",
+      "/images/collection-lookbook/shop/items/7dress/IMG_5166.webp",
+      "/images/collection-lookbook/shop/items/7dress/IMG_5172.webp",
       "/images/collection-lookbook/shop/items/7dress/7dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/7dress/7dress-cover.webp",
@@ -136,11 +142,17 @@ export const projects = [
     "name": "Style 8",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/8dress/8dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/8dress/IMG_5214.webp",
+      "/images/collection-lookbook/shop/thumbnails/8dress/IMG_5219.webp",
+      "/images/collection-lookbook/shop/thumbnails/8dress/IMG_5221.webp",
+      "/images/collection-lookbook/shop/thumbnails/8dress/IMG_5232.webp",
       "/images/collection-lookbook/shop/thumbnails/8dress/8dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/8dress/8dress-1.webp",
+      "/images/collection-lookbook/shop/items/8dress/IMG_5214.webp",
+      "/images/collection-lookbook/shop/items/8dress/IMG_5219.webp",
+      "/images/collection-lookbook/shop/items/8dress/IMG_5221.webp",
+      "/images/collection-lookbook/shop/items/8dress/IMG_5232.webp",
       "/images/collection-lookbook/shop/items/8dress/8dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/8dress/8dress-cover.webp",
@@ -168,13 +180,13 @@ export const projects = [
     "name": "Style 10",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/10dress/10dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/10dress/10dress-2.webp",
+      "/images/collection-lookbook/shop/thumbnails/10dress/1ver.webp",
+      "/images/collection-lookbook/shop/thumbnails/10dress/IMG_6827.webp",
       "/images/collection-lookbook/shop/thumbnails/10dress/10dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/10dress/10dress-1.webp",
-      "/images/collection-lookbook/shop/items/10dress/10dress-2.webp",
+      "/images/collection-lookbook/shop/items/10dress/1ver.webp",
+      "/images/collection-lookbook/shop/items/10dress/IMG_6827.webp",
       "/images/collection-lookbook/shop/items/10dress/10dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/10dress/10dress-cover.webp",
@@ -185,15 +197,11 @@ export const projects = [
     "name": "Style 11",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/11dress/11dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/11dress/11dress-2.webp",
-      "/images/collection-lookbook/shop/thumbnails/11dress/11dress-3.webp",
+      "/images/collection-lookbook/shop/thumbnails/11dress/IMG_7051.webp",
       "/images/collection-lookbook/shop/thumbnails/11dress/11dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/11dress/11dress-1.webp",
-      "/images/collection-lookbook/shop/items/11dress/11dress-2.webp",
-      "/images/collection-lookbook/shop/items/11dress/11dress-3.webp",
+      "/images/collection-lookbook/shop/items/11dress/IMG_7051.webp",
       "/images/collection-lookbook/shop/items/11dress/11dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/11dress/11dress-cover.webp",
@@ -205,12 +213,14 @@ export const projects = [
     "description": "",
     "thumbnails": [
       "/images/collection-lookbook/shop/thumbnails/12dress/12dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/12dress/12dress-2.webp",
+      "/images/collection-lookbook/shop/thumbnails/12dress/IMG_6834.webp",
+      "/images/collection-lookbook/shop/thumbnails/12dress/IMG_6973.webp",
       "/images/collection-lookbook/shop/thumbnails/12dress/12dress-cover.webp"
     ],
     "images": [
       "/images/collection-lookbook/shop/items/12dress/12dress-1.webp",
-      "/images/collection-lookbook/shop/items/12dress/12dress-2.webp",
+      "/images/collection-lookbook/shop/items/12dress/IMG_6834.webp",
+      "/images/collection-lookbook/shop/items/12dress/IMG_6973.webp",
       "/images/collection-lookbook/shop/items/12dress/12dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/12dress/12dress-cover.webp",
@@ -221,11 +231,13 @@ export const projects = [
     "name": "Style 13",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/13dress/13dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/13dress/IMG_5192.webp",
+      "/images/collection-lookbook/shop/thumbnails/13dress/IMG_5194.webp",
       "/images/collection-lookbook/shop/thumbnails/13dress/13dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/13dress/13dress-1.webp",
+      "/images/collection-lookbook/shop/items/13dress/IMG_5192.webp",
+      "/images/collection-lookbook/shop/items/13dress/IMG_5194.webp",
       "/images/collection-lookbook/shop/items/13dress/13dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/13dress/13dress-cover.webp",
@@ -236,11 +248,13 @@ export const projects = [
     "name": "Style 14",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/14dress/14dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/14dress/IMG_6964.webp",
+      "/images/collection-lookbook/shop/thumbnails/14dress/IMG_7036.webp",
       "/images/collection-lookbook/shop/thumbnails/14dress/14dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/14dress/14dress-1.webp",
+      "/images/collection-lookbook/shop/items/14dress/IMG_6964.webp",
+      "/images/collection-lookbook/shop/items/14dress/IMG_7036.webp",
       "/images/collection-lookbook/shop/items/14dress/14dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/14dress/14dress-cover.webp",
@@ -251,11 +265,11 @@ export const projects = [
     "name": "Style 15",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/15dress/15dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/15dress/IMG_6835.webp",
       "/images/collection-lookbook/shop/thumbnails/15dress/15dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/15dress/15dress-1.webp",
+      "/images/collection-lookbook/shop/items/15dress/IMG_6835.webp",
       "/images/collection-lookbook/shop/items/15dress/15dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/15dress/15dress-cover.webp",
@@ -266,11 +280,15 @@ export const projects = [
     "name": "Style 16",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/16dress/16dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/16dress/IMG_5140.webp",
+      "/images/collection-lookbook/shop/thumbnails/16dress/IMG_5142.webp",
+      "/images/collection-lookbook/shop/thumbnails/16dress/IMG_5152.webp",
       "/images/collection-lookbook/shop/thumbnails/16dress/16dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/16dress/16dress-1.webp",
+      "/images/collection-lookbook/shop/items/16dress/IMG_5140.webp",
+      "/images/collection-lookbook/shop/items/16dress/IMG_5142.webp",
+      "/images/collection-lookbook/shop/items/16dress/IMG_5152.webp",
       "/images/collection-lookbook/shop/items/16dress/16dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/16dress/16dress-cover.webp",
@@ -281,11 +299,15 @@ export const projects = [
     "name": "Style 17",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/17dress/17dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/17dress/IMG_6837.webp",
+      "/images/collection-lookbook/shop/thumbnails/17dress/IMG_7069.webp",
+      "/images/collection-lookbook/shop/thumbnails/17dress/IMG_7070.webp",
       "/images/collection-lookbook/shop/thumbnails/17dress/17dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/17dress/17dress-1.webp",
+      "/images/collection-lookbook/shop/items/17dress/IMG_6837.webp",
+      "/images/collection-lookbook/shop/items/17dress/IMG_7069.webp",
+      "/images/collection-lookbook/shop/items/17dress/IMG_7070.webp",
       "/images/collection-lookbook/shop/items/17dress/17dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/17dress/17dress-cover.webp",
@@ -297,10 +319,14 @@ export const projects = [
     "description": "",
     "thumbnails": [
       "/images/collection-lookbook/shop/thumbnails/18dress/18dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/18dress/IMG_6974.webp",
+      "/images/collection-lookbook/shop/thumbnails/18dress/IMG_7029.webp",
       "/images/collection-lookbook/shop/thumbnails/18dress/18dress-cover.webp"
     ],
     "images": [
       "/images/collection-lookbook/shop/items/18dress/18dress-1.webp",
+      "/images/collection-lookbook/shop/items/18dress/IMG_6974.webp",
+      "/images/collection-lookbook/shop/items/18dress/IMG_7029.webp",
       "/images/collection-lookbook/shop/items/18dress/18dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/18dress/18dress-cover.webp",
@@ -311,11 +337,13 @@ export const projects = [
     "name": "Style 19",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/19dress/19dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/19dress/IMG_1829.webp",
+      "/images/collection-lookbook/shop/thumbnails/19dress/IMG_1840.webp",
       "/images/collection-lookbook/shop/thumbnails/19dress/19dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/19dress/19dress-1.webp",
+      "/images/collection-lookbook/shop/items/19dress/IMG_1829.webp",
+      "/images/collection-lookbook/shop/items/19dress/IMG_1840.webp",
       "/images/collection-lookbook/shop/items/19dress/19dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/19dress/19dress-cover.webp",
@@ -326,17 +354,15 @@ export const projects = [
     "name": "Style 20",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/20dress/20dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/20dress/20dress-2.webp",
-      "/images/collection-lookbook/shop/thumbnails/20dress/20dress-3.webp",
-      "/images/collection-lookbook/shop/thumbnails/20dress/20dress-4.webp",
+      "/images/collection-lookbook/shop/thumbnails/20dress/IMG_1913.webp",
+      "/images/collection-lookbook/shop/thumbnails/20dress/IMG_1914.webp",
+      "/images/collection-lookbook/shop/thumbnails/20dress/IMG_2549.webp",
       "/images/collection-lookbook/shop/thumbnails/20dress/20dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/20dress/20dress-1.webp",
-      "/images/collection-lookbook/shop/items/20dress/20dress-2.webp",
-      "/images/collection-lookbook/shop/items/20dress/20dress-3.webp",
-      "/images/collection-lookbook/shop/items/20dress/20dress-4.webp",
+      "/images/collection-lookbook/shop/items/20dress/IMG_1913.webp",
+      "/images/collection-lookbook/shop/items/20dress/IMG_1914.webp",
+      "/images/collection-lookbook/shop/items/20dress/IMG_2549.webp",
       "/images/collection-lookbook/shop/items/20dress/20dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/20dress/20dress-cover.webp",
@@ -347,13 +373,19 @@ export const projects = [
     "name": "Style 21",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/21dress/21dress-1.webp",
-      "/images/collection-lookbook/shop/thumbnails/21dress/21dress-2.webp",
+      "/images/collection-lookbook/shop/thumbnails/21dress/IMG_1920.webp",
+      "/images/collection-lookbook/shop/thumbnails/21dress/IMG_1922.webp",
+      "/images/collection-lookbook/shop/thumbnails/21dress/IMG_1924.webp",
+      "/images/collection-lookbook/shop/thumbnails/21dress/IMG_1926.webp",
+      "/images/collection-lookbook/shop/thumbnails/21dress/IMG_1930.webp",
       "/images/collection-lookbook/shop/thumbnails/21dress/21dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/21dress/21dress-1.webp",
-      "/images/collection-lookbook/shop/items/21dress/21dress-2.webp",
+      "/images/collection-lookbook/shop/items/21dress/IMG_1920.webp",
+      "/images/collection-lookbook/shop/items/21dress/IMG_1922.webp",
+      "/images/collection-lookbook/shop/items/21dress/IMG_1924.webp",
+      "/images/collection-lookbook/shop/items/21dress/IMG_1926.webp",
+      "/images/collection-lookbook/shop/items/21dress/IMG_1930.webp",
       "/images/collection-lookbook/shop/items/21dress/21dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/21dress/21dress-cover.webp",
@@ -364,11 +396,21 @@ export const projects = [
     "name": "Style 22",
     "description": "",
     "thumbnails": [
-      "/images/collection-lookbook/shop/thumbnails/22dress/22dress-1.webp",
+      "/images/collection-lookbook/shop/thumbnails/22dress/2ress-3.webp",
+      "/images/collection-lookbook/shop/thumbnails/22dress/IMG_0121.webp",
+      "/images/collection-lookbook/shop/thumbnails/22dress/IMG_0122.webp",
+      "/images/collection-lookbook/shop/thumbnails/22dress/IMG_0123.webp",
+      "/images/collection-lookbook/shop/thumbnails/22dress/IMG_0265.webp",
+      "/images/collection-lookbook/shop/thumbnails/22dress/IMG_0266.webp",
       "/images/collection-lookbook/shop/thumbnails/22dress/22dress-cover.webp"
     ],
     "images": [
-      "/images/collection-lookbook/shop/items/22dress/22dress-1.webp",
+      "/images/collection-lookbook/shop/items/22dress/2ress-3.webp",
+      "/images/collection-lookbook/shop/items/22dress/IMG_0121.webp",
+      "/images/collection-lookbook/shop/items/22dress/IMG_0122.webp",
+      "/images/collection-lookbook/shop/items/22dress/IMG_0123.webp",
+      "/images/collection-lookbook/shop/items/22dress/IMG_0265.webp",
+      "/images/collection-lookbook/shop/items/22dress/IMG_0266.webp",
       "/images/collection-lookbook/shop/items/22dress/22dress-cover.webp"
     ],
     "coverImage": "/images/collection-lookbook/shop/items/22dress/22dress-cover.webp",

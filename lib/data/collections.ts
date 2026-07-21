@@ -6,7 +6,7 @@ export const collections = [
     season: "All Seasons",
     description: "A menswear collection transforming the fleeting beauty of the Valley of Flowers.",
     coverImage: "/images/collection-lookbook/valley-of-flowers.webp",
-    projects: ["3dress", "4dress", "6dress", "19dress", "20dress", "21dress"],
+    projects: ["4dress", "6dress", "19dress", "20dress", "21dress"],
   },
   {
     slug: "nawab-nouveau",
@@ -22,7 +22,7 @@ export const collections = [
     season: "Spring/Summer 2026",
     description: "Womenswear collection inspired by electric spirit of London's Nightlife.",
     coverImage: "/images/collection-lookbook/after-hours.webp",
-    projects: ["10dress", "11dress", "12dress", "14dress", "15dress", "17dress", "18dress", "22dress"],
+    projects: ["10dress", "11dress", "12dress", "14dress", "15dress", "17dress", "18dress"],
   },
   {
     slug: "the-glimmering-cage",
@@ -30,7 +30,7 @@ export const collections = [
     season: "Fall/Winter Couture 2026",
     description: "This collection symbolizes the tension between limitation and artistic expression.",
     coverImage: "/images/collection-lookbook/the-glimmering-cage.webp",
-    projects: ["1dress", "2dress"],
+    projects: ["1dress", "2dress","22dress"],
   },
   {
     slug: "nirvikara-the-untainted",
@@ -38,7 +38,7 @@ export const collections = [
     season: "Resort 2026",
     description: "A craft based collection inspired by a Lotus reflecting the human journey of growing.",
     coverImage: "/images/collection-lookbook/nirvikara-the-untainted.webp",
-    projects: ["7dress", "8dress", "13dress", "16dress"],
+    projects: ["3dress", "7dress", "8dress", "13dress", "16dress"],
   },
   {
     slug: "neel-kamal",

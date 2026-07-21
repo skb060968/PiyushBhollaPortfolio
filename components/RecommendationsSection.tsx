@@ -44,11 +44,6 @@ export default function RecommendationsSection() {
                 border: '1px solid rgba(212, 175, 55, 0.3)',
               }}
             >
-              {/* Quote Icon */}
-              <div className="absolute top-4 left-4 text-6xl font-serif opacity-20" style={{ color: '#D4AF37' }}>
-                "
-              </div>
-
               {/* Content */}
               <div className="relative z-10">
                 {/* Rating */}
