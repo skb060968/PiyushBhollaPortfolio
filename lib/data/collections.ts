@@ -6,7 +6,7 @@ export const collections = [
     season: "All Seasons",
     description: "A menswear collection transforming the fleeting beauty of the Valley of Flowers.",
     coverImage: "/images/collection-lookbook/valley-of-flowers.webp",
-    projects: ["4dress", "6dress", "19dress", "20dress", "21dress"],
+    projects: ["4dress", "6dress", "19dress", "20dress", "21dress", "23dress", "24dress", "25dress", "26dress", "27dress", "28dress", "29dress", "30dress", "31dress", "32dress", "33dress", "34dress", "35dress", "36dress", "37dress", "38dress", "39dress"],
   },
   {
     slug: "nawab-nouveau",
@@ -47,5 +47,13 @@ export const collections = [
     description: "The transformation of an authentic handloom saree inspired by a Blue Lotus.",
     coverImage: "/images/collection-lookbook/neel-kamal.webp",
     projects: ["9dress"],
+  },
+  {
+    slug: "draping",
+    name: "Draping",
+    season: "All Seasons",
+    description: "Exploring the art of draping with fluid silhouettes and sculptural forms.",
+    coverImage: "/images/collection-lookbook/draping.webp",
+    projects: ["40dress", "41dress"],
   },
 ];
