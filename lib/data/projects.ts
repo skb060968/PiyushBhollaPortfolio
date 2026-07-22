@@ -778,8 +778,8 @@ export const projects = [
       "/images/collection-lookbook/shop/items/37dress/37dress-10.webp",
       "/images/collection-lookbook/shop/items/37dress/37dress-11.webp",
       "/images/collection-lookbook/shop/items/37dress/37dress-2.webp",
-      "/images/collection-lookbook/shop/items/37dress/37dress-3.webp",
-      "/images/collection-lookbook/shop/items/37dress/37dress-4.webp",
+      "/images/collection-lookbook/shop/items/37dress/37dress-5.webp",
+      "/images/collection-lookbook/shop/items/37dress/37dress-6.webp",
       "/images/collection-lookbook/shop/items/37dress/37dress-7.webp",
       "/images/collection-lookbook/shop/items/37dress/37dress-8.webp",
       "/images/collection-lookbook/shop/items/37dress/37dress-cover.webp"
