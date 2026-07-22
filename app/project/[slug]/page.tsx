@@ -88,43 +88,56 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 sm:gap-16 lg:gap-24 items-start">
             {/* IMAGE COLUMN */}
             <div className="flex flex-col items-center w-full">
-              {/* Main Image with Premium Frame */}
-              <div 
-                ref={imageRef}
-                className="relative inline-block w-full max-w-md touch-pan-y"
-                onTouchStart={handleTouchStart}
-                onTouchMove={handleTouchMove}
-                onTouchEnd={handleTouchEnd}
-              >
-                <OrnateGoldFrame className="shadow-xl sm:shadow-2xl">
-                  <div className="relative overflow-hidden rounded-xl sm:rounded-2xl shadow-lg ring-1 ring-stone-200">
-                    <div className="w-full aspect-[3/4] bg-stone-100 relative">
-                      <Image
-                        src={activeImage}
-                        alt={project.name}
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 768px) 100vw, 50vw"
-                      />
-                    </div>
-                  </div>
-                </OrnateGoldFrame>
-                
-                {/* Swipe indicator for touch devices */}
+              {/* Main Image with Premium Frame and Swipe Arrows Container */}
+              <div className="relative inline-block w-full max-w-md">
+                {/* Swipe arrow indicators for touch devices - only show if multiple images */}
                 {imagesList.length > 1 && (
-                  <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-1.5 pointer-events-none md:hidden">
-                    {imagesList.map((_, idx) => (
-                      <div
-                        key={idx}
-                        className="w-1.5 h-1.5 rounded-full transition-all duration-300"
-                        style={{
-                          backgroundColor: idx === activeIndex ? '#D4AF37' : 'rgba(255, 255, 255, 0.5)',
-                          transform: idx === activeIndex ? 'scale(1.3)' : 'scale(1)',
-                        }}
-                      />
-                    ))}
-                  </div>
+                  <>
+                    {/* Left arrow - show if not first image */}
+                    {activeIndex > 0 && (
+                      <div className="absolute left-0 top-1/2 -translate-y-1/2 z-30 md:hidden">
+                        <div className="w-10 h-10 rounded-full flex items-center justify-center shadow-lg" style={{ backgroundColor: 'rgba(212, 175, 55, 0.9)' }}>
+                          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="#1f1f1f" strokeWidth={3}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+                          </svg>
+                        </div>
+                      </div>
+                    )}
+                    
+                    {/* Right arrow - show if not last image */}
+                    {activeIndex < imagesList.length - 1 && (
+                      <div className="absolute right-0 top-1/2 -translate-y-1/2 z-30 md:hidden">
+                        <div className="w-10 h-10 rounded-full flex items-center justify-center shadow-lg" style={{ backgroundColor: 'rgba(212, 175, 55, 0.9)' }}>
+                          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="#1f1f1f" strokeWidth={3}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                          </svg>
+                        </div>
+                      </div>
+                    )}
+                  </>
                 )}
+                
+                <div 
+                  ref={imageRef}
+                  className="touch-pan-y"
+                  onTouchStart={handleTouchStart}
+                  onTouchMove={handleTouchMove}
+                  onTouchEnd={handleTouchEnd}
+                >
+                  <OrnateGoldFrame className="shadow-xl sm:shadow-2xl">
+                    <div className="relative overflow-hidden rounded-xl sm:rounded-2xl shadow-lg ring-1 ring-stone-200">
+                      <div className="w-full aspect-[3/4] bg-stone-100 relative">
+                        <Image
+                          src={activeImage}
+                          alt={project.name}
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 768px) 100vw, 50vw"
+                        />
+                      </div>
+                    </div>
+                  </OrnateGoldFrame>
+                </div>
               </div>
 
               {/* Thumbnail Gallery */}
