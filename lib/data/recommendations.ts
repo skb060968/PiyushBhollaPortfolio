@@ -33,5 +33,13 @@ export const recommendations: Recommendation[] = [
     content: "Piyush has been placed on the Dean's List for the Fall 2024 and Spring 2025 semesters. His achievement confirms his mastery of course work in both the area of his major and in the broader liberal arts, and indicates that he is a well-rounded student who maintains a disciplined approach to academic work. We wish him the best for his continued success.",
     rating: 5,
   },
+  {
+    name: "Guneet Arora",
+    role: "Assistant Manager Design",
+    company: "Arvind Fashions | U.S. Polo Assn. | NIFT'24",
+    location: "Bengaluru",
+    content: "I had the pleasure of mentoring Piyush during his time at NIFT, and he has always stood out for his creativity, curiosity, and exceptional eye for detail. He approaches every project with a thoughtful design mindset and is constantly exploring new ideas, materials, and perspectives to push his work further. His dedication, willingness to learn, and attention to every detail made him a valuable contributor throughout the project. I'm excited to see where his creativity takes him next, and I have no doubt that he'll continue creating impactful work in the future.",
+    rating: 5,
+  },
   
 ]

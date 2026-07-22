@@ -88,33 +88,23 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 sm:gap-16 lg:gap-24 items-start">
             {/* IMAGE COLUMN */}
             <div className="flex flex-col items-center w-full">
-              {/* Main Image with Premium Frame and Swipe Arrows Container */}
+              {/* Main Image with Premium Frame and Swipe Indicators */}
               <div className="relative inline-block w-full max-w-md">
-                {/* Swipe arrow indicators for touch devices - only show if multiple images */}
+                {/* Dot indicators at bottom - only show if multiple images */}
                 {imagesList.length > 1 && (
-                  <>
-                    {/* Left arrow - show if not first image */}
-                    {activeIndex > 0 && (
-                      <div className="absolute left-0 top-1/2 -translate-y-1/2 z-30 md:hidden">
-                        <div className="w-10 h-10 rounded-full flex items-center justify-center shadow-lg" style={{ backgroundColor: 'rgba(212, 175, 55, 0.9)' }}>
-                          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="#1f1f1f" strokeWidth={3}>
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-                          </svg>
-                        </div>
-                      </div>
-                    )}
-                    
-                    {/* Right arrow - show if not last image */}
-                    {activeIndex < imagesList.length - 1 && (
-                      <div className="absolute right-0 top-1/2 -translate-y-1/2 z-30 md:hidden">
-                        <div className="w-10 h-10 rounded-full flex items-center justify-center shadow-lg" style={{ backgroundColor: 'rgba(212, 175, 55, 0.9)' }}>
-                          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="#1f1f1f" strokeWidth={3}>
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                          </svg>
-                        </div>
-                      </div>
-                    )}
-                  </>
+                  <div className="absolute bottom-6 left-0 right-0 flex justify-center gap-2 z-30 pointer-events-none md:hidden">
+                    {imagesList.map((_, idx) => (
+                      <div
+                        key={idx}
+                        className="rounded-full transition-all duration-300 shadow-md"
+                        style={{
+                          width: idx === activeIndex ? '10px' : '8px',
+                          height: idx === activeIndex ? '10px' : '8px',
+                          backgroundColor: idx === activeIndex ? '#D4AF37' : 'rgba(255, 255, 255, 0.6)',
+                        }}
+                      />
+                    ))}
+                  </div>
                 )}
                 
                 <div 
