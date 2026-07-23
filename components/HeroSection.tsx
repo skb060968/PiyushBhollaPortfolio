@@ -13,15 +13,15 @@ export default function HeroSection() {
         height: '100vh',
       }}
     >
-      {/* Hero image - 70vh on mobile to leave space, full viewport height on desktop/tablet */}
+      {/* Hero image - Full width on mobile, contained on desktop */}
       <div 
-        className="relative w-full h-[70vh] pt-8 md:h-screen md:pt-0"
+        className="relative w-full h-[70vh] md:h-screen"
       >
         <Image
           src="/images/home/hero.webp"
           alt="Piyush Bholla"
           fill
-          className="object-contain"
+          className="object-cover md:object-contain"
           priority
           quality={100}
         />
