@@ -49,5 +49,13 @@ export const recommendations: Recommendation[] = [
     content: "During the internship, Piyush showed creativity, dedication, and a strong willingness to learn. He contributed to design research, embroidery and print development, mood boards, sketches, fabric selection and sample coordination with professionalism and attention to detail. He is a quick learner, a dependable team player, and I confidently recommend him for future opportunities in the fashion industry.",
     rating: 5,
   },
+  {
+    name: "Sophia Lee",
+    role: "Assistant Professor, Fashion Design",
+    company: "Fashion Institute of Technology",
+    location: "New York",
+    content: "Piyush consistently demonstrated an exceptional work ethic, remarkable attention to detail, and a deep commitment to craftsmanship. As a designer, he is never satisfied with taking the easiest path. One of his greatest strengths is his ability to solve problems through experimentation. His professionalism, reliability, and commitment to excellence made him a pleasure to teach. I have every confidence that Piyush will be an outstanding addition to any design team or organization.",
+    rating: 5,
+  },
   
 ]
