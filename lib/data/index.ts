@@ -88,4 +88,10 @@ export const siteData = {
       linkedin: "https://www.linkedin.com/in/piyush-bholla-06794b33b?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
     },
   },
+  
+  contact: {
+    web3formKey: "3ff1a5f0-5f4c-42d3-967d-413a0f8adc75",
+    formHeading: "Send a Message",
+    formDescription: "Have a project in mind or want to collaborate? I'd love to hear from you.",
+  },
 }

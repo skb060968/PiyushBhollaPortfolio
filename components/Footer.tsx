@@ -1,12 +1,14 @@
 'use client'
 
-import { useEffect, useRef } from "react"
-import { Instagram, Mail, Linkedin } from "lucide-react"
+import { useEffect, useRef, useState } from "react"
+import { Instagram, Mail, Linkedin, Send } from "lucide-react"
 import { siteData } from "@/lib/data"
+import ContactModal from "./ContactModal"
 
 export default function Footer() {
   const { designer, footer } = siteData
   const footerRef = useRef<HTMLElement>(null)
+  const [isModalOpen, setIsModalOpen] = useState(false)
 
   useEffect(() => {
     // Fade effects temporarily disabled
@@ -28,9 +30,22 @@ export default function Footer() {
             <h3 className="font-display text-2xl font-bold mb-4" style={{ color: '#D4AF37' }}>
               {designer.name}
             </h3>
-            <p className="font-sans text-sm leading-relaxed" style={{ color: '#D4AF37' }}>
+            <p className="font-sans text-sm leading-relaxed mb-6" style={{ color: '#D4AF37' }}>
               {designer.tagline}
             </p>
+            
+            {/* Get in Touch Button */}
+            <button
+              onClick={() => setIsModalOpen(true)}
+              className="flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition hover:opacity-90"
+              style={{
+                backgroundColor: '#D4AF37',
+                color: '#1f1f1f',
+              }}
+            >
+              <Send size={18} />
+              Get in Touch
+            </button>
           </div>
 
           {/* Contact & Social */}
@@ -78,6 +93,9 @@ export default function Footer() {
           © {new Date().getFullYear()} {designer.name}. All rights reserved.
         </div>
       </div>
+      
+      {/* Contact Modal */}
+      <ContactModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </footer>
   )
 }
