@@ -12,21 +12,26 @@ export default function HeroSection() {
       }}
     >
       {/* Hero image - Full width on mobile, contained on desktop */}
-      <div 
-        className="relative w-full h-[60vh] md:h-screen"
-      >
-        <Image
-          src="/images/home/hero.webp"
-          alt="Piyush Bholla"
-          fill
-          className="object-cover md:object-contain"
-          priority
-          quality={100}
-        />
-      </div>
+      <div
+  className="relative w-full
+             h-[58vh]
+             sm:h-[60vh]
+             md:h-[75vh]
+             lg:h-[90vh]
+             xl:h-screen"
+>
+  <Image
+    src="/images/home/hero.webp"
+    alt="Piyush Bholla"
+    fill
+    className="object-cover lg:object-contain"
+    priority
+    quality={100}
+  />
+</div>
 
       <p
-  className="px-5 pt-0 pb-20 text-center font-display font-light leading-[1.15]"
+  className="px-5 pt-0 pb-10 text-center font-display font-light leading-[1.15]"
   style={{
     color: "#D4AF37",
     fontSize: "clamp(1.45rem, 4.8vw, 3.75rem)",
