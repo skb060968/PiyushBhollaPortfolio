@@ -1,16 +1,14 @@
 'use client'
 
-import { useEffect, useState } from "react"
 import Image from "next/image"
 import { ArrowDown } from "lucide-react"
 
 export default function HeroSection() {
   return (
     <section 
-      className="relative w-full overflow-hidden"
+      className="relative min-h-screen w-full overflow-hidden"
       style={{
         backgroundColor: '#1f1f1f',
-        height: '100vh',
       }}
     >
       {/* Hero image - Full width on mobile, contained on desktop */}
@@ -26,6 +24,13 @@ export default function HeroSection() {
           quality={100}
         />
       </div>
+
+      <p
+        className="px-6 pt-6 pb-28 text-center font-sans text-base sm:text-lg md:text-xl tracking-wide"
+        style={{ color: '#D4AF37' }}
+      >
+        Welcome to my portfolio. Explore my work and experience
+      </p>
 
       {/* Scroll indicator - Absolute position at bottom on mobile, overlays image on desktop */}
       <div className="absolute bottom-6 sm:bottom-8 left-0 right-0 w-full flex justify-center z-20">
