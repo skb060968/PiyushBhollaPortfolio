@@ -13,7 +13,7 @@ export default function HeroSection() {
     >
       {/* Hero image - Full width on mobile, contained on desktop */}
       <div 
-        className="relative w-full h-[70vh] md:h-screen"
+        className="relative w-full h-[60vh] md:h-screen"
       >
         <Image
           src="/images/home/hero.webp"
@@ -26,11 +26,22 @@ export default function HeroSection() {
       </div>
 
       <p
-        className="px-6 pt-6 pb-28 text-center font-sans text-base sm:text-lg md:text-xl tracking-wide"
-        style={{ color: '#D4AF37' }}
-      >
-        Welcome to my portfolio. Explore my work and experience
-      </p>
+  className="px-6 pt-0 pb-20 text-center font-sans
+             text-3xl sm:text-4xl md:text-5xl
+             font-semibold leading-tight"
+  style={{
+    color: "#D4AF37",
+    textShadow: `
+      0 0 8px rgba(212,175,55,0.9),
+      0 0 18px rgba(212,175,55,0.7),
+      0 0 35px rgba(212,175,55,0.5)
+    `,
+  }}
+>
+  WELCOME TO MY PORTFOLIO
+  <br />
+  Explore my work and experience
+</p>
 
       {/* Scroll indicator - Absolute position at bottom on mobile, overlays image on desktop */}
       <div className="absolute bottom-6 sm:bottom-8 left-0 right-0 w-full flex justify-center z-20">
