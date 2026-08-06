@@ -25,21 +25,26 @@ export default function HeroSection() {
         />
       </div>
 
-              <p
-  className="px-6 pt-0 pb-20 text-center
-             font-display italic
-             text-4xl sm:text-5xl md:text-6xl
-             font-light leading-tight"
+      <p
+  className="px-5 pt-0 pb-20 text-center font-display font-light leading-[1.15]"
   style={{
     color: "#D4AF37",
-    textShadow:
-      "0 0 6px rgba(212,175,55,.8), 0 0 18px rgba(212,175,55,.5)",
+    fontSize: "clamp(1.45rem, 4.8vw, 3.75rem)",
+    textShadow: `
+      0 0 8px rgba(212,175,55,0.85),
+      0 0 18px rgba(212,175,55,0.6),
+      0 0 35px rgba(212,175,55,0.35)
+    `,
   }}
 >
-  Welcome to my portfolio.
-  <br />
-  Explore my work and experience
-</p>
+  <span className="block whitespace-nowrap">
+    PORTFOLIO
+  </span>
+
+  <span className="block italic whitespace-nowrap mt-1">
+    Explore my work and experience
+  </span>
+</p>       
 
       {/* Scroll indicator - Absolute position at bottom on mobile, overlays image on desktop */}
       <div className="absolute bottom-6 sm:bottom-8 left-0 right-0 w-full flex justify-center z-20">
