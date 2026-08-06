@@ -356,6 +356,7 @@ export const projects = [
     "thumbnails": [
       "/images/collection-lookbook/shop/thumbnails/20dress/20-1.webp",
       "/images/collection-lookbook/shop/thumbnails/20dress/20-2.webp",
+      "/images/collection-lookbook/shop/thumbnails/20dress/20-3.webp",
       "/images/collection-lookbook/shop/thumbnails/20dress/20-cover.webp"
     ],
     "images": [
