@@ -25,20 +25,18 @@ export default function HeroSection() {
         />
       </div>
 
-      <p
-  className="px-6 pt-0 pb-20 text-center font-sans
-             text-3xl sm:text-4xl md:text-5xl
-             font-semibold leading-tight"
+              <p
+  className="px-6 pt-0 pb-20 text-center
+             font-display italic
+             text-4xl sm:text-5xl md:text-6xl
+             font-light leading-tight"
   style={{
     color: "#D4AF37",
-    textShadow: `
-      0 0 8px rgba(212,175,55,0.9),
-      0 0 18px rgba(212,175,55,0.7),
-      0 0 35px rgba(212,175,55,0.5)
-    `,
+    textShadow:
+      "0 0 6px rgba(212,175,55,.8), 0 0 18px rgba(212,175,55,.5)",
   }}
 >
-  WELCOME TO MY PORTFOLIO
+  Welcome to my portfolio.
   <br />
   Explore my work and experience
 </p>
